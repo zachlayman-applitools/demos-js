@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/zachlayman-applitools/demos-java",
   "scripts": {
-    "test": "node index.js"
+    "test": "mocha src/test/"
   },
   "author": "",
   "license": "ISC",
