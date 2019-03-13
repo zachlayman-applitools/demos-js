@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "Applitools JS Demos",
   "main": "index.js",
-  "repository": "https://github.com/zachlayman-applitools/demos-java",
   "scripts": {
     "test": "mocha src/test/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachlayman-applitools/demos-js.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachlayman-applitools/demos-js/issues"
+  },
+  "homepage": "https://github.com/zachlayman-applitools/demos-js#readme",
   "devDependencies": {
     "eyes.images": "^3.6.3",
     "eyes.selenium": "^3.6.3",
