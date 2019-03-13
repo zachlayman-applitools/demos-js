@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "Applitools JS Demos",
   "main": "index.js",
+  "repository": "https://github.com/zachlayman-applitools/demos-java",
   "scripts": {
     "test": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eyes.images": "^3.6.3",
     "eyes.selenium": "^3.6.3",
+    "rsvp": "^4.8.4",
     "selenium-webdriver": "^3.6.0"
   }
 }
