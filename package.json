@@ -18,8 +18,11 @@
   "homepage": "https://github.com/zachlayman-applitools/demos-js#readme",
   "devDependencies": {
     "eyes.images": "^3.6.3",
-    "eyes.selenium": "^3.6.3",
     "rsvp": "^4.8.4",
     "selenium-webdriver": "^3.6.0"
+  },
+  "dependencies": {
+    "eyes.selenium": "^3.6.3",
+    "protractor": "^5.4.2"
   }
 }
