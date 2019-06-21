@@ -10,8 +10,8 @@ eyes.setApiKey(process.env.APPLITOOLS_API_KEY);
 var driver = new webdriver.Builder().usingServer(LOCAL_APPIUM).withCapabilities(
     webdriver.Capabilities.safari()
     .set('platformName', 'iOS')
-    .set('platformVersion', '12.1')
-    .set('deviceName', 'iPhone XS Max')
+    .set('platformVersion', '12.2')
+    .set('deviceName', 'iPhone XR')
     .set('browserName', 'Safari'))
     .build();
 

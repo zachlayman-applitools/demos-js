@@ -10,14 +10,15 @@ var driver = new Builder().withCapabilities(Capabilities.chrome()).build();
 var eyes = new Eyes();
 eyes.setApiKey(process.env.APPLITOOLS_API_KEY);
 
-eyes.open(driver, "demos-js", "my first test", { width: 1024, height: 768 });
+eyes.open(driver, "demos-js I_29148", "my first test", { width: 1280, height: 720 });
 eyes.setForceFullPageScreenshot(true);
 
-driver.get("http://speedrunslive.com");
+driver.get("http://apple.com");
 try {
     // eyes.checkWindow("home page");
     // eyes.checkRegionByElement(By.css("body > footer"), "footer");
-    eyes.check("footer", SeleniumSDK.Target.region(By.css("body > footer")));
+    // eyes.check("header", SeleniumSDK.Target.region(By.id("ac-globalnav")));
+    eyes.checkRegionByElement(By.id("ac-globalnav"), "header");
     eyes.close();
 } finally {
     driver.quit();
